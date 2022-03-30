@@ -5,6 +5,9 @@ angular.
   config(['$routeProvider',
     function config($routeProvider) {
       $routeProvider.
+        when('/calendar', {
+          template: '<calendar></calendar>'
+        }).
         when('/phones', {
           template: '<phone-list></phone-list>'
         }).
