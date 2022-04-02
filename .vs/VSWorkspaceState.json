@@ -2,7 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\app",
-    "\\app\\phone-list-short"
+    "\\app\\phone-detail",
+    "\\app\\phone-list-short",
+    "\\app\\phones"
   ],
   "PreviewInSolutionExplorer": false
 }
