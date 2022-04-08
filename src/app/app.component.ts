@@ -8,5 +8,4 @@ import { AppData } from './AppData';
 })
 export class AppComponent {
   title = 'model';
-  data = new AppData('');
-}
+ }
