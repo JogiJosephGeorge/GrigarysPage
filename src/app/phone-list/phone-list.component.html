@@ -5,7 +5,7 @@
 <p>Hello 1 {{ data.name }}!</p>
 
 
-<p><input type="number" class="form-control" id="name" required [(ngModel)]="data.name" /></p>
-<p><input type="number" class="form-control" id="name" required [(ngModel)]="data.name" /></p>
-<p><button type="button" mdbBtn color="primary" mdbWavesEffect>ADD</button></p>
-<p><input type="number" class="form-control" id="name" required [(ngModel)]="data.name" /></p>
+<p><input type="number"   required [(ngModel)]="data1" /></p>
+<p><input type="number"  required [(ngModel)]="data2" /></p>
+<p><button (click)="onAdd()">ADD</button></p>
+<p><input type="number"   required [ngModel]="result" /></p>
