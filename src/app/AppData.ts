@@ -1,5 +1,5 @@
 export class AppData {
-  name: string;
+  name: String;
   constructor() {
     this.name = '';
      console.log('app data created');

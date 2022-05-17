@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\.angular",
     "\\src",
     "\\src\\app",
+    "\\src\\app\\header",
     "\\src\\app\\phone-list",
     "\\src\\assets",
     "\\src\\environments"
