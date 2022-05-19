@@ -1,0 +1,20 @@
+<p>my-pipe-samples works!</p>
+<p>
+  Date<a>{{currentDate | date:'dd-MM-yyyy'}}</a>
+  <a>{{currentDate | date:'MMMM'}}</a>
+  <a>{{currentDate | date:'h:mm a'}}</a>
+</p>
+<p>
+  currency<a><input type="number" required [(ngModel)]="data3" /></a>
+  <a>{{data3 |  currency}}</a>
+  <a>{{data3 |  currency:'INR':'symbol'}}</a>
+</p>
+<!--<p>
+  upper case<a><input type="text"  [(ngModel)]="name1" /></a>
+       <a>{{ name1 | uppercase }}</a>
+</p>-->
+<p>
+  Number<a><input type="number" required [(ngModel)]="data4" /></a>
+  <a>{{ data4 | number : '' }}</a>
+  <a>{{ data4 | number : '1.2-2' }}</a>
+</p>

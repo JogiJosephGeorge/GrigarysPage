@@ -13,7 +13,7 @@ export class PhoneListComponent implements OnInit {
   data1: number;
   data2: number;
   result: number;
-
+ 
 
   constructor(service: PhoneDataService)
   {
@@ -21,7 +21,11 @@ export class PhoneListComponent implements OnInit {
     this.data1 = 0;
     this.data2 = 0;
     this.result = 0;
+  
+   
+   
   }
+ 
  
   ngOnInit(): void {
   }

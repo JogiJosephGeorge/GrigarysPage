@@ -5,9 +5,11 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\header",
+    "\\src\\app\\my-pipe-samples",
     "\\src\\app\\phone-list",
     "\\src\\assets",
     "\\src\\environments"
   ],
+  "SelectedNode": "\\src\\app\\phone-list\\phone-list.component.ts",
   "PreviewInSolutionExplorer": false
 }
