@@ -5,9 +5,8 @@
 <p>Hello 1 {{ data.name }}!</p>
 
 
-<p><input type="number" required [(ngModel)]="data1" /></p>
-<p><input type="number" required [(ngModel)]="data2" /></p>
-<p><button (click)="onAdd()">ADD</button></p>
-<p><input type="number" required [ngModel]="result" /></p>
-
+<p><input type="number" required [(ngModel)]="data.data1" /></p>
+<p><input type="number" required [(ngModel)]="data.data2" /></p>
+<p><button (click)="onAdd()" >ADD</button></p>
+<p><input type="number" required [ngModel]="data.result" /></p>
 

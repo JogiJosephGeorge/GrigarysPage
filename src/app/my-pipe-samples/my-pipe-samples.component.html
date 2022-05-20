@@ -1,20 +1,47 @@
 <p>my-pipe-samples works!</p>
 <p>
-  Date<a>{{currentDate | date:'dd-MM-yyyy'}}</a>
-  <a>{{currentDate | date:'MMMM'}}</a>
-  <a>{{currentDate | date:'h:mm a'}}</a>
+  Date<a>{{currentDate | date:'dd-MM-yyyy'}}</a>&nbsp;
+  &nbsp; <a>{{currentDate | date:'MMMM'}}</a>&nbsp;
+  &nbsp;<a>{{currentDate | date:'h:mm a'}}</a>
 </p>
 <p>
-  currency<a><input type="number" required [(ngModel)]="data3" /></a>
-  <a>{{data3 |  currency}}</a>
-  <a>{{data3 |  currency:'INR':'symbol'}}</a>
+  currency<a><input type="number" required [(ngModel)]="data3" /></a>&nbsp;
+  &nbsp;<a>{{data3 |  currency}}</a>
+  &nbsp;<a>{{data3 |  currency:'INR':'symbol'}}</a>
 </p>
-<!--<p>
-  upper case<a><input type="text"  [(ngModel)]="name1" /></a>
-       <a>{{ name1 | uppercase }}</a>
-</p>-->
+<p>
+  upper case<a><input type="text" [(ngModel)]="name1" /></a>&nbsp;
+  &nbsp;<a>{{ name1 | uppercase }}</a>
+</p>
 <p>
   Number<a><input type="number" required [(ngModel)]="data4" /></a>
-  <a>{{ data4 | number : '' }}</a>
-  <a>{{ data4 | number : '1.2-2' }}</a>
+  &nbsp;<a>{{ data4 | number : '' }}</a>&nbsp;
+  &nbsp;<a>{{ data4 | number : '1.2-2' }}</a>
 </p>
+
+<p>
+  currency<a><input #data03 type="number" required  /></a>&nbsp;
+  &nbsp;<a>{{data03.value  |  currency}}</a>
+  &nbsp;<a>{{data03.value  |  currency:'INR':'symbol'}}</a>
+</p>
+<p>
+  upper case<a><input #name01 type="text"  /></a>&nbsp;
+  &nbsp;<a>{{ name01.value  | uppercase }}</a>
+</p>
+<p>
+  Number<a><input type="number" #data04 required  /></a>
+  &nbsp;<a>{{ data04.value | number : '' }}</a>&nbsp;
+  &nbsp;<a>{{ data04.value | number : '1.2-2' }}</a>
+</p>
+
+
+<li ng-class="ul1">grigary</li>
+<li *ngFor="let name1 of names; index as i; odd as isFirst"
+    ng-class="{'ul1':i === 1, 'ul2': i === 2}">
+
+  
+  <span *ngIf="isFirst" style="color: red;">{{i+1}}/ {{name1}}</span>
+  <span *ngIf="!isFirst" style="color: blue;">{{i+1}}/ {{name1}}</span>
+
+</li>
+

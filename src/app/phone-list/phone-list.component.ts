@@ -10,27 +10,20 @@ import { PhoneDataService } from '../phone-data.service';
 export class PhoneListComponent implements OnInit {
 
   data: AppData
-  data1: number;
-  data2: number;
-  result: number;
- 
 
-  constructor(service: PhoneDataService)
+
+  constructor(service1: PhoneDataService)
   {
-    this.data = service.data;
-    this.data1 = 0;
-    this.data2 = 0;
-    this.result = 0;
+    this.data = service1.data;
+   
   
-   
-   
   }
  
  
   ngOnInit(): void {
   }
   onAdd() {
-    this.result=this.data1+this.data2;
+    this.data.result=this.data.data1+this.data.data2;
   }
 
 }
