@@ -1,12 +1,13 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+/green_leafy/dist
+/green_leafy/tmp
+/green_leafy/out-tsc
+/green_leafy/bazel-out
 
 # Node
+/green_leafy/node_modules
 /node_modules
 npm-debug.log
 yarn-error.log
@@ -20,6 +21,9 @@ yarn-error.log
 .settings/
 *.sublime-workspace
 
+# Visual Studio
+/.vs/
+
 # Visual Studio Code
 .vscode/*
 !.vscode/settings.json
@@ -29,13 +33,13 @@ yarn-error.log
 .history/*
 
 # Miscellaneous
-/.angular/cache
+/green_leafy/.angular/cache
 .sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
+/green_leafy/connect.lock
+/green_leafy/coverage
+/green_leafy/libpeerconnection.log
 testem.log
-/typings
+/green_leafy/typings
 
 # System files
 .DS_Store
