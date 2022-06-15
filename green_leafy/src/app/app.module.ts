@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { HeaderComponent } from './header/header.component';
 import { MenuComponent } from './menu/menu.component';
-//import { MatIconModule } from '@angular/material/icon';
 
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -18,8 +18,8 @@ import { MenuComponent } from './menu/menu.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-    /*MatIconModule*/
+    AppRoutingModule,
+    MatToolbarModule
 
   ],
   providers: [],

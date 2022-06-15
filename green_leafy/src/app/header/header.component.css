@@ -2,33 +2,31 @@
   flex: 1;
 }
 
-.toolbar {
-  position: absolute;
+.toolbar1 {
   top: 0;
   left: 0;
   right: 0;
   height: 60px;
   display: flex;
   align-items: center;
-  color: white;
   font-weight: 600;
 }
 
-  .toolbar img {
+  .toolbar1 img {
     margin: 0 16px;
   }
 
-  .toolbar #twitter-logo {
+  .toolbar1 #twitter-logo {
     height: 40px;
     margin: 0 8px;
   }
 
-  .toolbar #youtube-logo {
+  .toolbar1 #youtube-logo {
     height: 40px;
     margin: 0 16px;
   }
 
-    .toolbar #twitter-logo:hover,
-    .toolbar #youtube-logo:hover {
+    .toolbar1 #twitter-logo:hover,
+    .toolbar1 #youtube-logo:hover {
       opacity: 0.8;
     }
