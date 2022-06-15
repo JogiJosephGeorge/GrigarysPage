@@ -53,3 +53,23 @@ i.fas {
   text-rendering: auto;
   line-height: 1;
 }
+.secnd-sec .nav-item {
+  padding: 0px 3px;
+}
+
+ul li, ol li {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  list-style: none;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+user agent stylesheet
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
