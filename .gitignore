@@ -1,13 +1,13 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
-/green_leafy/dist
-/green_leafy/tmp
-/green_leafy/out-tsc
-/green_leafy/bazel-out
+/dist
+/tmp
+/out-tsc
+/bazel-out
 
 # Node
-/green_leafy/node_modules
+/node_modules
 /node_modules
 npm-debug.log
 yarn-error.log
@@ -33,13 +33,13 @@ yarn-error.log
 .history/*
 
 # Miscellaneous
-/green_leafy/.angular/cache
+/.angular/cache
 .sass-cache/
-/green_leafy/connect.lock
-/green_leafy/coverage
-/green_leafy/libpeerconnection.log
+/connect.lock
+/coverage
+/libpeerconnection.log
 testem.log
-/green_leafy/typings
+/typings
 
 # System files
 .DS_Store
