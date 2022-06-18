@@ -6,8 +6,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent implements OnInit {
-
-  constructor() { }
+  links: Array<string>;
+  constructor() {
+    this.links = [
+      "All",
+      "Seeds",
+      "Pots",
+      "Pots & Plants",
+      "Plant Care",
+      "Tools & Accessories",
+      "DIY Pest Control",
+      "Kits",
+      "Offers",
+      "Plants",
+      "Events"
+    ];
+  }
 
   ngOnInit(): void {
   }

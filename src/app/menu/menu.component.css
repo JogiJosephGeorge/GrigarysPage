@@ -1,4 +1,15 @@
 .myToolbar {
-   background-color: #91d219;
-   color: white;
-    }
+  background-color: #689e4a;
+  color: white;
+  flex-direction: row;
+  display: flex;
+  min-height: 30px;
+  font-weight: 600;
+  border-bottom: 5px solid #b1de4e;
+}
+
+
+.searchButton i {
+  position: relative;
+  bottom: 2px;
+}
