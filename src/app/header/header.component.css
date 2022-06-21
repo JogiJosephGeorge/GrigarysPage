@@ -11,7 +11,7 @@
   align-items: center;
   font-weight: 600;
 }
-
+/*
   .toolbar1 img {
     margin: 0 16px;
   }
@@ -29,4 +29,35 @@
     .toolbar1 #twitter-logo:hover,
     .toolbar1 #youtube-logo:hover {
       opacity: 0.8;
+    }*/
+    .icon-search{
+      width:20px; 
+      background-color:red;
+      margin:0;
+      padding:0;
+      
     }
+   /*.searchButton{
+    height:20px;
+    margin:0;
+   }*/
+.searchText {
+    height:20px;
+    width:50%;
+    margin:0;
+    background-color:forestgreen;
+}
+/*input[type="search"] {
+  padding-right: 32px;
+}
+
+.search-container {
+
+
+ 
+}
+
+  .search-container > input[type="search"] + span {
+   
+  }*/
+
