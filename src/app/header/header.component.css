@@ -7,57 +7,44 @@
   left: 0;
   right: 0;
   height: 60px;
-  display: flex;
+  display: grid;
   align-items: center;
-  font-weight: 600;
+  /*font-weight: 600;*/
+  grid-template-columns: 100px 1fr;
 }
-/*
-  .toolbar1 img {
-    margin: 0 16px;
-  }
-
-  .toolbar1 #twitter-logo {
-    height: 40px;
-    margin: 0 8px;
-  }
-
-  .toolbar1 #youtube-logo {
-    height: 40px;
-    margin: 0 16px;
-  }
-
-    .toolbar1 #twitter-logo:hover,
-    .toolbar1 #youtube-logo:hover {
-      opacity: 0.8;
-    }*/
-    .icon-search{
-      width:20px; 
-      background-color:red;
-      margin:0;
-      padding:0;
-      
-    }
-   /*.searchButton{
-    height:20px;
-    margin:0;
-   }*/
-.searchText {
-    height:20px;
-    width:50%;
-    margin:0;
-    background-color:forestgreen;
-}
-/*input[type="search"] {
-  padding-right: 32px;
+.outer {
+  display: grid;
+  grid-template-columns: 5fr  5fr;
+  /*grid-template-rows: 25px;*/
 }
 
-.search-container {
-
-
- 
+.search-icon {
+  /*width: 30px;*/
+  background-color: #689e4a;
+  margin: 0;
+  padding: 0;
+  color: white;
+  border: 0;
 }
 
-  .search-container > input[type="search"] + span {
-   
-  }*/
+.search-text {
+  border: 0;
+  background-color: #eff2ed;
+}
 
+.search {
+  display: grid;
+  grid-template-columns: 2fr 30px;
+  grid-template-rows: 25px;
+  max-width: 300px;
+
+  align-self:center;
+}
+.login {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.my-button {
+  max-width: 100px;
+}
